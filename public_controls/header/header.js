@@ -14,7 +14,6 @@ export class Header extends Control
     Render(){
         let h1 = new Control("h1");
         h1.Attribute('class', 'logo');
-        h1.Controls.Add(new Image("emerald+","application/theme/default/logo_icon.png"));
         h1.Controls.Add(new Label("emerald+"));
         this.Controls.Add(h1);
 
