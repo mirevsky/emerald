@@ -2,9 +2,6 @@ import {Config} from './config/config.js';
 import {Control} from './controls/controls_collection.js';
 import {BMVC} from './controls/bmvc.js';
 import {XMLHttpRequestHandler, StringHandler, ParamsHandler} from './controls/handlers.js';
-import {
-    LIBRARIES
-} from './builder/builder.constants.js'
 
 export class Application
 {
