@@ -17,10 +17,6 @@ export class Application
         var style = new Control("style");
         style.id = "emerald"
         document.head.appendChild(style.Render());
-
-        /*for(let i in LIBRARIES){
-            document.head.appendChild(LIBRARIES[i].Render());
-        }*/
     }
 
     static addLoadEvent(func) {

@@ -12,8 +12,8 @@ export class IndexLayout extends Layout
     }
 
     RenderBody(){
-      
-      	this.Body.Controls.Add(new Header());
+
+        this.Body.Controls.Add(new Header());
       
       	// Render templates
       	this.Body.Controls.Add(this.RenderTemplates());

@@ -62,8 +62,6 @@ export class Section
 
     Run(){
         let section = new Control("div");
-        let loading = new PageLoader("loading");
-        section.Controls.Add(loading);
         let exec = new Control("div");
         exec.onload = () => {
             this.asyncExecute();
