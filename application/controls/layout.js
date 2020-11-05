@@ -2,8 +2,6 @@ import {Application} from '../application.js'
 import {Control} from './controls_collection.js';
 import {Section} from './section.js';
 import {XMLHttpRequestHandler, StringHandler} from './handlers.js';
-import {Builder} from '../builder/builder.js'
-import {BuilderRightMenu} from '../builder/builder_right_menu.js';
 
 export class Layout
 {

@@ -10,6 +10,7 @@ export class BMVC
     }
 
     Run(){
+
         var locale = import('../../locale/'+Application.request.LanguageCode+'.js');
         locale.then(function(result){
             Application.locale = result.Locale;
