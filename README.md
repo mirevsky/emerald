@@ -1,8 +1,8 @@
-# emerald
+# emerald+
 ======= LIST OF COMMANDS =======
-install <OS>      - Install Dependencies
-run               - Run Application
--c || --create    - Create modules
+##### install <OS>      - Install Dependencies
+##### run               - Run Application
+##### -c || --create    - Create modules
                   Example:
                   ./app.sh -c <type> <name> -d <path>
                   ./app.sh --create <type> <name> --directory <path>
@@ -10,7 +10,7 @@ run               - Run Application
                   <type>  - section | block | layout | template | public_control
                   <name>  - camelcase rule of naming files
                   <path>  - path will be created based on type of module. Note: Applicable only for blocks and public_control
--d || --delete    - Delete module
+##### -d || --delete    - Delete module
                   Example:
                   ./app.sh -d <type> <path>
                   ./app.sh --delete <type> <path>
@@ -18,9 +18,9 @@ run               - Run Application
                   <path>  - path to file
 
 ========== INSTALL ============
-run ./app.sh install <OS> to install all dependencies
+##### run ./app.sh install <OS> to install all dependencies
 ========= RUN ===========
-run ./app.sh run
+##### run ./app.sh run
   
   
 
