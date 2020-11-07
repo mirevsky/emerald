@@ -19,5 +19,11 @@
 
 ========== INSTALL ============
 ##### run ./app.sh install <OS> to install all dependencies
+    Example:
+        ./app.sh install redhat
+        ./app.sh install fedora
+        ./app.sh install ubuntu
+        ./app.sh install suse
+        ./app.sh install macosx
 ========= RUN ===========
 ##### run ./app.sh run
