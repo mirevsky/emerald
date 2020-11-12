@@ -150,6 +150,8 @@ run               - Run Application
     fi
 
     npm install electron
+    npm install eslint --save-dev
+    npm install mocha --save-dev
 
     npm start
     exit
